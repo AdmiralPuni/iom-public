@@ -1,0 +1,189 @@
+/*MAIN STYLE*/
+body{
+    font-family: "Calibri";
+    margin:0;
+    height:100%;
+    background-image: url("image/bg.jpg");
+}
+.main{
+    min-width:1100px;
+    max-width:60%;
+    margin:0 auto;
+}
+.header{
+    padding:0;
+    color: white;
+}
+.header img{
+    width:100%;
+}
+.menubar{
+    background-color: #dfffd7;
+    padding: 0;
+}
+.menubar table{
+    width: 100%;
+    background-color: #dfffd7;
+    border-spacing: 0;
+    -webkit-box-shadow: none;
+}
+.menubar table tr td{
+    border-right: 1px solid black;
+    font-weight: bold;
+    text-align: center;
+    min-width:100px;
+    font-size:14pt;
+    padding:0;
+}
+.menubar table tr td:hover{
+    color: white;
+    background-color:#39739b;
+}
+.menubar table tr a{
+    text-decoration: none;
+    color: inherit;
+    display:block;
+    width:100%;
+    height:100%;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+.content{
+    background-color:#f0f0f0;
+    min-height: 600px;
+    height:600px;
+    vertical-align: top;
+}
+.footer{
+    color:white;
+    text-align: center;
+    padding:0px;
+}
+.frame{
+    width:100%;
+    border-spacing: 15px;
+    background-color: #39739b;
+    -webkit-box-shadow: 0px 0px 32px -2px rgba(0,0,0,0.75);
+}
+td{
+    padding: 10px;
+}
+h1{
+    line-height: 0;
+}
+
+/*INTERNAL COMPONENT*/
+
+.login{
+    margin: 0 auto;
+    border-spacing: 0;
+    font-size: 14pt;
+    width: 200px;
+}
+.login tr td{
+    border: 1px solid black;
+    padding:5px;
+}
+.login input{
+    font-size: 14pt;
+    background-color: none;
+}
+/*DESCRIPTION TABLE*/
+.content .description{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content .description tr td{
+    padding: 5px;
+}
+.content .description tr td:nth-child(1){
+    width:20%;
+    border-right: 1px solid black;
+}
+.content .description tr td textarea{
+    width:99.1%;
+    resize : vertical;
+}
+/*DETAILS TABLE*/
+.content .detail{
+    width:100%;
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+.content .detail tr td{
+    padding: 7px;
+    border-right:2px solid black;
+}
+.content .detail tr:nth-child(1){
+    background-color: #d9edf6;
+    font-weight: bold;
+    border-bottom:2px solid black;
+}
+.content .detail tr td:nth-child(1){
+    width:20%;
+}
+.content .detail tr td:nth-child(3){
+    width:15%;
+}
+.content .detail .iomlist td{
+    width:auto !important;
+}
+.content .detail tr{
+    background-color: white;
+}
+/*VIEW FILTER TABLE*/
+.content .listiom{
+    width:100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.content .listiom tr td{
+    padding: 7px;
+    border-right:1px solid black;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+.content .listiom tr td:nth-child(1){
+    text-align: left;
+}
+.content .listiom tr td select{
+    width: 100%;
+}
+.content .listiom tr td input{
+    width: 95%;
+}
+
+/*RESULT TABLE*/
+.content .result{
+    width:100%;
+    border: 2px solid black;
+    border-top: none;
+    border-collapse: collapse;
+}
+.content .result tr td{
+    padding: 7px;
+    border-right:2px solid black;
+}
+.content .result tr td:nth-child(1){
+    width:20%;
+}
+.content .result tr td:nth-child(3){
+    width:15%;
+}
+.content .result .iomlist td{
+    width:auto !important;
+}
+.content .result tr{
+    background-color: white;
+}
+
+
+.approved{
+    background-color:darkgreen;
+    color:white;
+}
+.waiting{
+    background-color: crimson;
+    color:white;
+}
